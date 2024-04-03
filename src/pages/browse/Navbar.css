@@ -1,0 +1,23 @@
+.navbar-icon {
+  width: 32px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.navbar-icon:hover {
+  cursor: pointer;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  left: 20px;
+  font-size: 32px;
+}
+
+.navbar {
+  position: relative;
+}

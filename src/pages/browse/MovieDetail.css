@@ -1,0 +1,27 @@
+.movie-detail {
+  display: flex;
+  height: 400px;
+  background-color: black;
+}
+
+.movie_detail__content {
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+.movie_detail__content :first-child {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+.movie_detail__content :last-child {
+  font-weight: normal;
+}
+
+.movie-detail__video,
+.movie-detail__img {
+  width: 700px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
